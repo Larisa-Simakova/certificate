@@ -137,10 +137,11 @@ body {
 }
 
 .winner {
+    width: fit-content;
     font-size: 2em;
     position: absolute;
-    top: 44%;
-    transform: translateY(44%);
+    top: 43%;
+    transform: translateY(43%);
     text-align: center;
 }
 
@@ -149,6 +150,6 @@ body {
     top: 55%;
     transform: translateY(55%);
     text-align: center;
-    width: 25%;
+    width: 27%;
     resize: none;
 }
