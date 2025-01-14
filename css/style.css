@@ -130,7 +130,7 @@ body {
     justify-content: center;
 }
 
-.diplom img {
+.diplom .diplom-img {
     border: 2px solid black;
     position: relative;
     height: 90vh;
@@ -152,4 +152,12 @@ body {
     text-align: center;
     width: 27%;
     resize: none;
+}
+
+.diplom .signature {
+    position: absolute;
+    bottom: 25.5%;
+    right: 49.5%;
+    transform: translate(49.5%, 25.5%);
+    width: 100px;
 }
